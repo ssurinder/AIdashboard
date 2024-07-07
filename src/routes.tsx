@@ -14,6 +14,7 @@ import AiIcon from "./assets/svg/ai.svg";
 import IntegrationIcon from './assets/svg/integration.svg';
 import ProjectIcon from './assets/svg/project.svg'
 import DocumentIcon from './assets/svg/document.svg'
+import Integration from './views/admin/integrations'
 
 // Auth Imports
 import SignIn from "views/auth/SignIn";
@@ -38,9 +39,9 @@ const routes = [
   {
     name: "Integrations",
     layout: "/admin",
-    path: "main",
+    path: "integration",
     icon: <img src={IntegrationIcon} alt="logo" />, 
-    component: <Main />,
+    component: <Integration />,
   },
   {
     name: "Projects",
