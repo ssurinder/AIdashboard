@@ -323,9 +323,14 @@ export const theme = {
     sidebar: "#F6F6F6",
     unselect: "#636363",
     black: "#0F0F0F",
+    "border-color": "#dbdbdb",
     shadow: {
       500: "rgba(112, 144, 176, 0.08)",
     },
   }),
 };
-export const plugins = [require("tailwindcss-rtl")];
+export const plugins = 
+  [require("tailwindcss-rtl"),
+  require('@tailwindcss/forms'),
+  
+];
